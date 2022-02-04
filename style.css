@@ -1,0 +1,80 @@
+.container {
+    width: 90%;
+    margin: 20px;
+}
+#header {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 40px auto 40px auto;
+}
+#header h3 {
+    align-self: center;
+}
+#header hr {
+    height: 1px;
+    width: 100%;
+    border: 1px solid blue;
+}
+#column-add {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 50%;
+}
+#label-col-add {
+    width: 160px;
+    align-self: center;
+}
+#text-col-add {
+    width: 200px;
+    align-self: center;
+    margin-right: 20px;
+    text-transform: capitalize;
+}
+#btn-col-add {
+    width: 115px;
+    align-self: center;
+    text-transform: capitalize;
+    box-shadow: 1px 2px 11px #777;
+}
+
+/* Column data input section */
+#column-inputs{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0px;
+    padding: 0px;
+}
+.inner-col-add{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    width: auto;
+    border-left: 1px dashed #ddd;
+}
+.inner-col-add i {
+    cursor: pointer;
+    align-self: center;
+}
+.fa-minus{
+    color: rgb(233, 64, 64);
+}
+#column-inputs-instruction {
+    margin: 10px auto;
+}
+.hidden{
+    display: none;
+}
+.unhide{
+    display: block;
+}
+#column-inputs input {
+    width: 200px;
+    /* text-transform: capitalize; */
+    margin: 5px;
+}
+.row-hr{
+    height: 1px;
+    width: 100%;
+    border: 1px solid blue;
+    margin: 40px auto 10px auto;
+}
